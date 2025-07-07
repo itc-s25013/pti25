@@ -23,7 +23,7 @@ message_label.pack(pady=10)
 result_label = tk.Label(root, text="", font=("Helvetica", 18, "bold"))
 result_label.pack(pady=20)
 
-draw_button = tk.Button(root, text="おみくじを引く",  command=draw_omikkuji)
+draw_button = tk.Button(root, text="おみくじを引く",  command=draw_omikuji)
 draw_button.pack()
 
 root.mainloop()
